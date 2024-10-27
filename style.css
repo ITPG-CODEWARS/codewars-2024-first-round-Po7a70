@@ -1,6 +1,10 @@
 :root{
     --pink:#f790c2; 
 }
+::selection {
+    background: #ffbcdc;
+    color: #333;
+  }
 
 
 *{
@@ -9,7 +13,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     outline: none; border: none;
     text-decoration: none;
-    text-transform: capitalize;
     transition: .2s linear; 
 }
 
@@ -130,6 +133,9 @@ header .fa-bars{
 
 .home .content{
     max-width: 50rem;
+    background-color:#f2f2f2c7;
+    padding: 1rem;
+    border-radius: 2rem;
 }
 
 .home .content h3{
@@ -468,6 +474,44 @@ header .fa-bars{
     line-height: 1.5;
 }
 
+/*sanrioPularoidExpress*/
+.snr{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(pictures/88b0352714713daf9555374ab0ae0681.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.snr .content{
+    background-color: #ffffffa6;
+    padding: 2rem;
+    border-radius: 2rem ;
+    max-width: 50rem;
+}
+
+.snr .content h3{
+    font-size: 6rem;
+    color: #333;
+}
+
+.snr .content span{
+    font-size: 3.5rem;
+    color: var(--pink);
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.snr .content p{
+    font-size: 1.8rem;
+    color: #333;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+
 /*about trains*/
 
 .trains .row{
@@ -552,9 +596,9 @@ img {vertical-align: middle;}
   /* Caption text */
   .text {
     position: absolute;
-    top: 50%; transform: translateY(-50%);
+    top: 80%; transform: translateY(-50%);
     font-size: 3rem;
-    background: #ffffffbe;
+    background: #ffffffa9;
     width:100%;
     padding:1rem 2rem;
     text-align: center;
