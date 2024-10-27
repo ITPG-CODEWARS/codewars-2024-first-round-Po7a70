@@ -6,6 +6,21 @@
     color: #333;
   }
 
+  body::-webkit-scrollbar {
+    width: 1.2rem;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background:#eeeeeec4 ;        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--pink);    
+    border-radius: 10rem;       
+    border: 3px solid #eeeeeeb6
+  }
+
+
 
 *{
     margin: 0; padding: 0;
@@ -125,7 +140,7 @@ header .fa-bars{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background: url(pictures/tulips-bouquet-gift.jpg) no-repeat;
+    background: url(pictures/cute-pixel-desktop-w8frus6fn27wpbn1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 
@@ -437,6 +452,31 @@ header .fa-bars{
 
 
 
+
+#myBtn {
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px;
+    z-index: 99;
+    background-color:var(--pink); 
+    color: #eee; 
+    cursor: pointer; 
+    padding: 1.5rem; 
+    border-radius: 5rem; 
+    font-size: 2rem; 
+  }
+  
+  #myBtn:hover {
+    background-color: #333; 
+  }
+
+
+
+
+
+
+
+
 /*hellokittyshinkansen*/
 .hk{
     display: flex;
@@ -547,7 +587,42 @@ header .fa-bars{
     padding: 1rem 0;
     line-height: 1.5;
 }
+/*pokemon*/
+.poke{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(pictures/poke.PNG) no-repeat;
+    background-size: cover;
+    background-position: center;
 
+}
+
+.poke .content{
+    background-color: #ffffffa6;
+    padding: 2rem;
+    border-radius: 2rem ;
+    max-width: 50rem;
+}
+
+.poke .content h3{
+    font-size: 6rem;
+    color: #333;
+}
+
+.poke .content span{
+    font-size: 3.5rem;
+    color: var(--pink);
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.poke .content p{
+    font-size: 1.8rem;
+    color: #333;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
 
 /*about trains*/
 
@@ -565,11 +640,6 @@ header .fa-bars{
     flex: 1 1 40rem;
     position: relative;
 }
-
-
-
-
-
 
 .trains .row .content{
     flex: 1 1 40rem;
@@ -642,16 +712,6 @@ img {vertical-align: middle;}
     mix-blend-mode: screen;
   }
 
-  /*.text1 {
-    flex: 1 1 40rem;
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }*/
 
   /* Number text (1/3 etc) */
   .numbertext {
@@ -680,7 +740,14 @@ img {vertical-align: middle;}
 
 
 
-
+.maps{
+    position: relative;
+    background-color: var(--pink);
+    padding: 0.4rem;
+    border-radius: 2rem;
+    align-items: center;
+    
+}
 
 
 
