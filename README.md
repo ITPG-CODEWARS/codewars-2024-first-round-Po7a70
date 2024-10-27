@@ -1,6 +1,6 @@
 # Trains website
 
-The website is ... **some description**
+The website is about theamed trains all around Japan and their characters. It specifies their history and shows in detail the way they look inside and out.
 
 ## Instructions (how to start)
 
