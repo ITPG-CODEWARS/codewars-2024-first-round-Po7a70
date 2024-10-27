@@ -511,6 +511,43 @@ header .fa-bars{
     line-height: 1.5;
 }
 
+/*Kitty train*/
+.tama{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(pictures/tama.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.tama .content{
+    background-color: #ffffffa6;
+    padding: 2rem;
+    border-radius: 2rem ;
+    max-width: 50rem;
+}
+
+.tama .content h3{
+    font-size: 6rem;
+    color: #333;
+}
+
+.tama .content span{
+    font-size: 3.5rem;
+    color: var(--pink);
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.tama .content p{
+    font-size: 1.8rem;
+    color: #333;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
 
 /*about trains*/
 
